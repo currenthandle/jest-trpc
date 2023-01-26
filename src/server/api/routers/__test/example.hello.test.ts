@@ -11,5 +11,5 @@ test("hello test", async () => {
     text: "test",
   };
   const result = await caller.example.hello(input);
-  expect(result).toBe({ greeting: "Hello test" });
+  expect(result).toStrictEqual({ greeting: "Hello test" });
 });
