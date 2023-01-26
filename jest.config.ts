@@ -4,7 +4,7 @@
 //   preset: "ts-jest/presets/js-with-ts",
 //   setupFiles: ["dotenv/config"],
 //   transform: {
-//     "^.+\\.mjs?$": "ts-jest",
+//     "^.+\\.mjs$": "ts-jest",
 //   },
 // };
 
@@ -14,7 +14,7 @@ const config = {
   preset: "ts-jest/presets/js-with-ts",
   setupFiles: ["dotenv/config"],
   transform: {
-    "^.+\\.mjs?$": "ts-jest",
+    "^.+\\.mjs$": "ts-jest",
   },
 };
 
