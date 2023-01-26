@@ -1,6 +1,5 @@
 import { test, expect } from "@jest/globals";
 import { appRouter } from "../../root";
-import { prisma } from "../../../db";
 import { mockDeep } from "jest-mock-extended";
 import type { Example, PrismaClient } from "@prisma/client";
 
